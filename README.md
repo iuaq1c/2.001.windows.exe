@@ -11,3 +11,41 @@
 # сервис запускается отдельно, скрипт только опрашивает его
 python probe_1011_01.py http://127.0.0.1:53240
 ```
+
+## Скриншоты разбора
+
+### 1. Перебор маршрутов и разбор `app.js`
+
+![Перебор маршрутов и разбор app.js](docs/img/01-routes-and-appjs.png)
+
+### 2. Начало `app.js`: константы, сервисы, `bankStats`
+
+![Начало app.js](docs/img/02-appjs-head.png)
+
+### 3. `/api/auth/stats` и `/api/auth/cards` без авторизации — флаг в имени карты
+
+![Данные без авторизации](docs/img/03-unauth-stats-cards.png)
+
+### 4. `/api/state` отдаёт SPA-заглушку (`text/html`), маршрута на бэкенде нет
+
+![SPA fallback](docs/img/04-spa-fallback.png)
+
+### 5. Прослушиваемые порты: сервис на `127.0.0.1:53240`
+
+![Порты](docs/img/05-listening-ports.png)
+
+### 6. Извлечение строк из PE (`dump.ps1`, 51 434 строки)
+
+![Дамп строк](docs/img/06-strings-dump.png)
+
+### 7. Отфильтрованные строки: структуры serde, маршруты, ошибки крейтов
+
+![Фильтр строк](docs/img/07-strings-filtered.png)
+
+### 8. Соседняя задача: скрытый файл в локальных заголовках ZIP
+
+![ZIP local header](docs/img/08-zip-local-header.png)
+
+### 9. JPEG, извлечённый из pcap (`2_1011_06_трафик.pcap`)
+
+![Фото из pcap](docs/img/09-uploaded-photo.jpg)
