@@ -1,5 +1,15 @@
 # 2.001.windows.exe
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Windows PE](https://img.shields.io/badge/PE-x86--64-0078D4?style=flat&logo=windows&logoColor=white)
+![CTF](https://img.shields.io/badge/CTF-vsosh-8A2BE2?style=flat&logo=hackthebox&logoColor=white)
+
+🐍 Python · 🟨 JavaScript · ➕➕ C++ · 🦀 Rust · 🐚 PowerShell · 🪟 Windows PE · 🚩 CTF
+
 Материалы разбора CTF-задачи «Greenbank» (веб + статический анализ PE).
 
 - [`2_1011_01_writeup.md`](2_1011_01_writeup.md) — полный разбор: артефакт → PE → рантайм → модель данных → динамика → уязвимость → эксплуатация → починка → сверка фактов.
