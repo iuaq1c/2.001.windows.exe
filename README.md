@@ -56,10 +56,6 @@ python probe_1011_01.py http://127.0.0.1:53240
 
 ![ZIP local header](docs/img/08-zip-local-header.png)
 
-### 9. JPEG, извлечённый из pcap (`2_1011_06_трафик.pcap`)
-
-![Фото из pcap](docs/img/09-uploaded-photo.jpg)
-
 ## Вывод
 
 - Бинарник `2_1011_01-windows.exe` — не «банк с ассетами», а локальный HTTP-сервис на Rust (axum + hyper + serde), слушающий `127.0.0.1:53240`.
